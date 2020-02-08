@@ -28,15 +28,15 @@ This file 'run_analysis.R' contains all the code to perform the analyses describ
 ## About this R script
 File with R code "run_analysis.R" perform 5 following steps (in accordance assigned task of course work):   
 - Loading helpful package (dplyr)
-0. Downloading and Unzipping File
-1. Assigning all the data frames
-    1.1.1 features, activity, subject_test, x_test, y_test, y_train, x_train, subject_train
-2. Step 1- Merges the training and the test sets to create one data set
-    2.1 merging test data
-    2.2 merging train data
-    2.3 total merge(merging test data and train data)
-3. Step 2- Extracts only the measurements on the mean and standard deviation for each measurement
-4. Step 3- Uses descriptive activity names to name the activities in the data set
-5. Step 4- Appropriately labels the data set with descriptive variable names
-6. Step 5- From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject
-7. Creating New File FinalData
+1. Downloading and Unzipping File
+2. Assigning all the data frames
+    2.1 Features, activity, subject_test, x_test, y_test, y_train, x_train, subject_train
+3. Step 1- Merges the training and the test sets to create one data set
+    3.1 Merging test data
+    3.2 Merging train data
+    3.3 Total merge(merging test data and train data)
+4. Step 2- Extracts only the measurements on the mean and standard deviation for each measurement
+5. Step 3- Uses descriptive activity names to name the activities in the data set
+6. Step 4- Appropriately labels the data set with descriptive variable names
+7. Step 5- From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject
+8. Creating New File FinalData
